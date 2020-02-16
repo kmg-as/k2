@@ -6,7 +6,7 @@ from typing import Any, Union
 
 
 def only_ints(a,b):
-    return type(a)=="int" and type(b)=="int"
+    return type(a)==int and type(b)==int
 
 
 
